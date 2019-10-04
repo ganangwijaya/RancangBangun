@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FBCE2E</color>
+    <color name="colorPrimaryDark">#2D0326</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="biru">#8fd3f4</color>
+    <color name="merahitem">#2D0326</color>
+    <color name="orengelap">#FF6361</color>
+    <color name="kuning">#FBCE2E</color>
+
+</resources>

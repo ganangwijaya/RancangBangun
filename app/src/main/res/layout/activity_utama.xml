@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/merahitem"
+    tools:context=".Register">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/ataslogin">
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="99dp"
+            android:fontFamily="@font/gothamblack"
+            android:text="Daftar Akun"
+            android:textColor="@color/orengelap"
+            android:textSize="38sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"/>
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:background="@color/orengelap"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="30dp"></RelativeLayout>
+
+    <EditText
+        android:id="@+id/masuk_username"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:autofillHints=""
+        android:background="@drawable/form_login"
+        android:fontFamily="@font/gothamblack"
+        android:hint="USERNAME"
+        android:textColor="@color/orengelap"
+        android:textColorHint="@color/orengelap"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"/>
+
+        <EditText
+        android:id="@+id/masuk_password"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:autofillHints=""
+            android:textColor="@color/orengelap"
+            android:textColorHint="@color/orengelap"
+        android:background="@drawable/form_login"
+        android:fontFamily="@font/gothamblack"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp" />
+
+    <EditText
+        android:id="@+id/cek_password"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:autofillHints=""
+        android:textColor="@color/orengelap"
+        android:textColorHint="@color/orengelap"
+        android:background="@drawable/form_login"
+        android:fontFamily="@font/gothamblack"
+        android:hint="CEK PASSWORD"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:autofillHints=""
+        android:background="@drawable/form_login"
+        android:ems="10"
+        android:fontFamily="@font/gothamblack"
+        android:hint="NAMA PENGGUNA"
+        android:textColor="@color/orengelap"
+        android:textColorHint="@color/orengelap"
+        android:inputType="textPersonName"
+        android:paddingLeft="0dp"
+        android:gravity="center"
+        android:paddingRight="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp" />
+
+    <EditText
+        android:id="@+id/nip"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:autofillHints=""
+        android:background="@drawable/form_login"
+        android:ems="10"
+        android:fontFamily="@font/gothamblack"
+        android:hint="NIP/NIM"
+        android:textColor="@color/orengelap"
+        android:textColorHint="@color/orengelap"
+        android:inputType="textPhonetic"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp" />
+
+    <EditText
+        android:id="@+id/status"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:autofillHints=""
+        android:background="@drawable/form_login"
+        android:ems="10"
+        android:fontFamily="@font/gothamblack"
+        android:hint="STATUS"
+        android:textColor="@color/orengelap"
+        android:textColorHint="@color/orengelap"
+        android:inputType="text"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp" />
+
+    <Button
+        android:id="@+id/button_registerin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tombol"
+        android:fontFamily="@font/gothamblack"
+        android:text="REGISTER"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="30dp" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

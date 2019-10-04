@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/merahitem"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/atashalaman">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/tengahhalaman">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/bawahhalaman">
+
+    </RelativeLayout>
+
+    <!-- ATAS -->
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/suhu"
+            android:layout_marginRight="15dp"/>
+
+            <RelativeLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suhu Ruangan"
+                    android:textColor="@color/merahitem"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/gothamblack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/kondisi_suhu"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/merahitem"
+                    android:textSize="65dp"
+                    android:fontFamily="@font/gothamblack"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <!-- TENGAH -->
+    <LinearLayout
+        android:layout_marginTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+            <RelativeLayout
+                android:id="@+id/nyala_lampu"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:padding="0dp">
+
+                <TextView
+                    android:id="@+id/kondisi_lampu"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="@font/gothamblack"
+                    android:textAlignment="center"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/merahitem"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    />
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="140dp"
+                    android:src="@drawable/lampu"
+                    android:layout_alignParentTop="true">
+                </ImageView>
+
+            </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/nyala_kipas"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:padding="0dp"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:id="@+id/kondisi_kipas"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/gothamblack"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/merahitem"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                />
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_height="140dp"
+                android:src="@drawable/kipas"
+                android:layout_alignParentTop="true">
+            </ImageView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <!-- BAWAH -->
+    <LinearLayout
+        android:layout_marginTop="370dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="20dp">
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/pintu"></ImageView>
+
+                <TextView
+                    android:id="@+id/pintu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/gothamblack"
+                    android:text="Pintu Ruangan"
+                    android:textColor="@color/putih"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/kondisi_pintu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/gothamblack"
+                    android:textColor="@color/putih"
+                    android:textSize="40dp"
+
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

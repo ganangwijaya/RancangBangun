@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nav">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/NavigationView"
+        android:background="@color/merahitem"
+        android:minHeight="80dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="10dp"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            app:titleTextColor="@color/orengelap"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_nav" />
+
+    <Button
+        android:id="@+id/keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="595dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/tombol"
+        android:fontFamily="@font/gothamblack"
+        android:text="LOGOUT"
+        android:textColor="#FFFFFF" />
+
+</android.support.design.widget.CoordinatorLayout>
